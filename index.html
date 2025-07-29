@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gideon Bethuel | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(to right, #000428, #004e92);
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #4fc3f7;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      color: #80d8ff;
+      border-bottom: 2px solid #4fc3f7;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: #4fc3f7;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background-color: #4fc3f7;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #80d8ff;
+    }
+
+    form input,
+    form textarea,
+    form button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #4fc3f7;
+      color: #000;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #000;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gideon Bethuel</h1>
+    <p>Aeronautical Engineer | Problem Solver | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am an enthusiastic Aeronautical Engineering graduate passionate about aviation systems and technology. I enjoy solving complex problems, learning new tools, and building smart solutions.</p>
+  </section>
+
+  <section>
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>Python</li>
+      <li>HTML & CSS</li>
+      <li>C Programming</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Educational Background</h2>
+    <p><strong>Kenya Aeronautical College</strong><br>Diploma in Aeronautical Engineering (2021 – 2024)</p>
+    <a href="Rotich_Gideon_Polished_CV (1).pdf" class="btn" download>📄 Download My CV</a>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <p>I love exploring aviation technology, data science, AI applications, and tools that enhance human capability. I'm also a fan of swimming, reading novels, and traveling.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>just a beginner😊✔</strong> — .</li>
+      <li><strong>S</strong> — As for now we do not have the capacity😢😢😢😢.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xovldlpy" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gideon Bethuel | All rights reserved.</p>
+  </footer>
+</body>
+</html>
